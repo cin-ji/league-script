@@ -1,18 +1,17 @@
 import pyautogui
-import time
+import keyboard
 
-# Replace these coordinates with your desired location
-desired_x = 3693
-desired_y = 539
+def run_script():
+    # Replace these coordinates with your desired mouse location
+    x = 3693
+    y = 539
 
-# Move the mouse to the desired location
-pyautogui.moveTo(desired_x, desired_y, duration=1)
+    # Moves the mouse to the desired location
+    pyautogui.moveTo(x, y)
 
-# Perform a left click
-pyautogui.click()
+    # Performs a left click
+    pyautogui.click()
 
-# Add a delay between the click and the press
-time.sleep(0.5)
-
-# Press the 'W' key
-pyautogui.press('w')
+    # Presses the 'W' key
+    keyboard.press('w')
+    keyboard.release('w')
