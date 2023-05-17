@@ -1,7 +1,6 @@
-# league-script
+# League Script
 
 ## Description
-
 This is a script that will move Yuumi to a desired x, y coordinates of your mouse and press W for Yuumi to attach to ally.
 This is a script that runs in the background and start/stop the application using a macro key (of your choice).
 
